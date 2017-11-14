@@ -71,16 +71,24 @@ Write the code to complete this in `euler_1/sum_of_natural_numbers.py`
 Here are some general questions you might get asked about Python. Spend some time researching and answering these questions.
 
 ##### How does Python compare to other langauges you've used?
+Python's syntax is a lot more straight forward and tends to require less code to achieve the same output as most other languages from what I have noticed. At the same time, it has a few crucial
+rules, like all languages, that must be adhered to.  Having to pay close attention to spacing is an important aspect and it can add a layer to troubleshooting and debugging that usually isn't there with languages like javascript. However the simplified syntax of Python by far makes up for that. 
 
 ##### Is Python a high or low level language?
+Python is a high level language, being that it is further removed from machine and assembly code and is more similiar to a human speaking language. 
 
 ##### Is it a compiled or interpeted language?
+My research has shown me that this is a difficult question to answer because what makes Python compliled or interpreted would be the implementation method chosen rather than its native abilities. For normal Python, programs written in it are ran from the source code, leaning my answer towards it being interpreted.   However cPython implementations can be compiled, where as pypy implementation would be interpreted. 
 
 ##### What paradigms does Python support?
+Python supports object-oriented, imperative, functional, and procedural programming paradigms.
 
 ##### Does it have built in memory management? garbage collection?
+Yes, Python has both. 
 
 ##### Does it have strong support for functional programming?
+Python suppports functional programming but not super well.  I am still in the process of understanding why but from my research it seems to lack concepts relating to pattern matching and doesn't really contain an extensive library, so many tasks enjoyed by developers of more suited functional programming languages have to be performed imperatively in Python and can take longer to accomplish. 
 
 ##### What's the deal with Python 2 vs Python 3?
+Python 3 is considered to be current Python where as Python 2 is technically a legacy version though still widely used and supported.  Python 3 has several important differences such as the print statement is now a function and executed as print(), xrange is now simply range, and the map() and filter() methods return iterators. 
 
